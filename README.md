@@ -1,4 +1,4 @@
-Link to project (https://altschool-assesment.devmanuel.repl.co)
+Link to project [https://altschool-assessment.netlify.app](https://altschool-assessment.netlify.app)
 
 # Getting Started with Create React App
 
