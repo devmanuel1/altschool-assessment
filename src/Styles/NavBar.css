@@ -1,0 +1,38 @@
+.nav_container {
+  padding: 0.7rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2b2b2b;
+}
+
+.nav_logo_div h1 {
+  color: #ebeb5e;
+}
+
+.nav_logo_div {
+  font-size: 1.3rem;
+}
+
+.nav_link_div ul {
+  list-style: none;
+  display: flex;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.nav_link {
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #ffffff;
+  transition: color 0.25s ease-in-out;
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  color: #ebeb5e;
+}
+
+.nav_active {
+  color: #ebeb5e;
+}

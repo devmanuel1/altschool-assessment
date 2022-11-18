@@ -1,0 +1,60 @@
+.repo_details_container {
+  padding: 0 1rem;
+  min-height: 93vh;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.repo_extra_container {
+  background-color: #2b2b2b;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 40vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.ripo_img_div {
+  display: flex;
+  gap: 1rem;
+}
+
+.ripo_img_div span {
+  font-size: 1.3rem;
+}
+
+.ripo_img_div img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.ripo_info_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ripo_info_div span {
+  color: #ebeb5e;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ripo_info_div span:nth-child(1) {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .repo_extra_container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
